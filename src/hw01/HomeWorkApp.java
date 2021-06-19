@@ -27,7 +27,7 @@ public class HomeWorkApp {
     private static void printColor() {
         int value = (int) (random() * 300 - 100);
         System.out.printf("value= %d \n", value);
-        if (value < 0)
+        if (value <= 0)
             System.out.println("Красный");
         else if (value <= 100)
             System.out.println("Желтый");
