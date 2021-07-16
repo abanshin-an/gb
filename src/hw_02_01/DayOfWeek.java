@@ -9,12 +9,12 @@ enum DayOfWeek {
     FRIDAY,
     SATURDAY;
 
-    private final int WEEK_WORKHOURS = 40;
 
-    public int getWorkingHours() {
+    public String getWorkingHours() {
+        final int WEEK_WORKHOURS = 40;
         if ( MONDAY.ordinal() <= this.ordinal() && this.ordinal() <= FRIDAY.ordinal()) {
-            return WEEK_WORKHOURS - (this.ordinal()-1)*8;
+            return ""+( WEEK_WORKHOURS - (this.ordinal()-1)*8)+" рабочих часов";
         }
-        return 0;
-    };
+        return " Сегодня выходной";
+    }
 }

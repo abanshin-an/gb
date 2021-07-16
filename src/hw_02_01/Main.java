@@ -17,9 +17,9 @@ public class Main {
                 new Robot("WALL-E",7,4),
                 new Robot("R2D2",22,5),
                 new Robot("Terminator",32,8),
-                new Dog("Hachiko",11,4),
-                new Dog("White Fang",25,7),
-                new Dog("Baskervilles dog",31,10),
+                new Cat("Garfield",11,4),
+                new Cat("Tom",25,7),
+                new Cat("Matroskin",31,10),
 
         };
         return rj;
