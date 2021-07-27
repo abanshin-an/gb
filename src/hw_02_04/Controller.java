@@ -7,7 +7,6 @@ import javafx.scene.Node;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
-import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 import javafx.stage.Window;
 
@@ -25,7 +24,7 @@ public class Controller {
         });
     }
     @FXML
-    public void moveFocus(MouseEvent event){
+    public void moveFocus(){
         Platform.runLater(() -> messageString.requestFocus());
     }
     @FXML

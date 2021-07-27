@@ -20,22 +20,18 @@
     </center>
     <bottom>
         <HBox>
-            <TextField fx:id="messageString" focusTraversable="true" onAction="#sendIt" HBox.hgrow="ALWAYS" maxWidth="Infinity"/>
+            <TextField fx:id="messageString" onAction="#sendIt" HBox.hgrow="ALWAYS" maxWidth="Infinity"/>
             <Button fx:id="sendBtn" onAction="#sendIt" text="Send" prefWidth="100">
                 <graphic>
                     <ImageView fitHeight="18.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
-                        <image>
-                            <Image url="@images/send.png"/>
-                        </image>
+                        <Image url="@images/send.png"/>
                     </ImageView>
                 </graphic>
             </Button>
             <Button fx:id="exitBtn" onAction="#exit" text="Exit" prefWidth="100">
                 <graphic>
                     <ImageView fitHeight="18.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
-                        <image>
-                            <Image url="@images/shutdown.png"/>
-                        </image>
+                        <Image url="@images/shutdown.png"/>
                     </ImageView>
                 </graphic>
             </Button>
