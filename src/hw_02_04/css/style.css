@@ -1,0 +1,8 @@
+.root {
+    font-size: 18px;
+}
+
+.button:hover {
+    -fx-background-color: rgba(83, 128, 0, 0.27);
+    font-weight: bold;
+}
